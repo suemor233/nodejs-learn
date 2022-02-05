@@ -1,1 +1,5 @@
-hahahaha
+()=>{
+    fs.readFile('./file/1.txt','utf-8',(err,dataStr)=>{
+        return dataStr
+    })
+} + 'hahahaha'
